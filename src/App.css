@@ -1,0 +1,47 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Page layout */
+.page {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid black;
+}
+
+/* ✅ HEADER — EXACT LIKE IMAGE */
+.header {
+  background-color: #b7d7e3;
+  padding: 20px 40px;
+  border-bottom: 3px solid black;
+
+  display: flex;
+  align-items: center;        /* vertical center */
+  gap: 20px;                  /* space between logo & text */
+}
+
+.logo {
+  height: 40px;
+}
+
+/* Content */
+.content {
+  flex: 1;
+  background-color: #8df08d;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Footer */
+.footer {
+  background-color: #e0e0e0;
+  padding: 20px;
+  border-top: 3px solid black;
+  font-size: 22px;
+}
